@@ -10,6 +10,7 @@ const Register = () => {
   const [password, setPassword] = useState('')
   const [confirm, setConfirm] = useState('')
   const [error, setError] = useState('')
+
   const submit = async (e) => {
     e.preventDefault()
     setError('')
@@ -37,8 +38,9 @@ const Register = () => {
     setAuth({ role: 'student', studentId: res.user.id })
     navigate('/student')
   }
+
   return (
-    <div className="card">
+    <div className="card form-card">
       <h1>Student Registration</h1>
       <form onSubmit={submit}>
         <label>

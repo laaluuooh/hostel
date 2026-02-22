@@ -1,0 +1,42 @@
+{
+  "students": [
+    {
+      "id": "12345",
+      "name": "12345",
+      "password": "12345"
+    },
+    {
+      "id": "CSE1001",
+      "name": "Student One",
+      "password": "student@123"
+    },
+    {
+      "id": "CSE1002",
+      "name": "Student Two",
+      "password": "student@123"
+    }
+  ],
+  "wardenPassword": "warden@123",
+  "menu": [
+    {
+      "id": "e1048451-b10d-4c19-b230-03feb6126126",
+      "day": "tuesday",
+      "items": "dosa",
+      "createdAt": 1771786611859
+    },
+    {
+      "id": "a6adfbff-3f67-4762-bc1c-e784e524f4f1",
+      "day": "monday",
+      "items": "idli",
+      "createdAt": 1771786602587
+    }
+  ],
+  "notifications": [
+    {
+      "id": "f28cc008-fc3a-4b06-8e66-0e8da22fee07",
+      "text": "hostel time extended to 6pm",
+      "createdAt": 1771786628700
+    }
+  ],
+  "complaints": []
+}
